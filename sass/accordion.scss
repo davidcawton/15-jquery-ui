@@ -28,6 +28,16 @@ html {
   margin: 0;
 }
 
+.accordion__bar:hover {
+  background-color: $brand_green;
+  color: $brand_dark_grey;
+}
+
+.bar-total {
+  color: $brand_white;
+  background-color: $brand_dark_grey;
+}
+
 .accordion__bar-ul {
   padding-left: 0;
   color: $brand_light_grey;
