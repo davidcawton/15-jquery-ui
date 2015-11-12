@@ -11,7 +11,9 @@
   "devDependencies": {
     "broccoli-babel-transpiler": "^5.5.0",
     "broccoli-concat": "0.0.13",
+    "broccoli-lr": "^0.2.0",
     "broccoli-merge-trees": "^1.0.0",
-    "broccoli-sass": "^0.7.0"
+    "broccoli-sass": "^0.7.0",
+    "serve": "^1.4.0"
   }
 }
