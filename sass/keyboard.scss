@@ -7,10 +7,10 @@
   display: flex;
   background: $brand_white;
   border: 1px $brand_dark_grey solid;
-  border-radius: 2%;
   max-width: 800px;
   margin: auto;
-}
+  margin-bottom: 2px;
+  font-family: 'Ubuntu', sans-serif;}
 
 .keyboard {
   display: flex;
@@ -18,7 +18,7 @@
   background-color: $brand_light_grey;
   max-width: 800px;
   margin: auto;
-
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .keyboard-keys {
@@ -37,13 +37,10 @@
   border: 1px $brand_dark_grey solid;
   text-align: center;
   margin: 1px;
-  border-radius: 10%;
+  border-radius: 5%;
+  height: 1.4em;
 }
 
 .key-btn__big {
   flex: 2;
-}
-
-.key-btn__space {
-
 }
