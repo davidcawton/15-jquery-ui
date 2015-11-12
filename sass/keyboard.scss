@@ -11,3 +11,13 @@
   max-width: 800px;
   margin: auto;
 }
+
+.keyboard {
+  display: flex;
+  flex-direction: column;
+}
+
+.keyboard-keys {
+  display: flex;
+  list-style: none;
+}
