@@ -15,9 +15,35 @@
 .keyboard {
   display: flex;
   flex-direction: column;
+  background-color: $brand_light_grey;
+  max-width: 800px;
+  margin: auto;
+
 }
 
 .keyboard-keys {
   display: flex;
   list-style: none;
+  padding-left: 0;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin: 1px;
+}
+
+.key-btn {
+  flex: 1;
+  background-color: $brand_white;
+  padding: 1px;
+  border: 1px $brand_dark_grey solid;
+  text-align: center;
+  margin: 1px;
+  border-radius: 10%;
+}
+
+.key-btn__big {
+  flex: 2;
+}
+
+.key-btn__space {
+
 }
