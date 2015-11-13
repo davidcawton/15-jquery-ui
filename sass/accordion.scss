@@ -32,11 +32,6 @@ $brand_white: rgb(229, 233, 224);
   color: $brand_dark_grey;
 }
 
-.bar-total {
-  color: $brand_white;
-  background-color: $brand_dark_grey;
-}
-
 .accordion__bar-ul {
   padding-left: 0;
   color: $brand_light_grey;
@@ -69,6 +64,7 @@ $brand_white: rgb(229, 233, 224);
   border-radius: 50%;
   padding: 3px 7px;
   line-height: 1.1em;
+  color: $brand_white;
 }
 .li-total {
   border-radius: 50%;
