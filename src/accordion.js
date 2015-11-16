@@ -3,6 +3,6 @@ export default function() {
   var list = $('.accordion__bar-ul');
 
   accord.on('click', function() {
-    $(this).next(list).slideToggle();
+    $(this).siblings(list).slideToggle();
   });
 };
