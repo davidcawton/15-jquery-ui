@@ -4,7 +4,7 @@ export default function() {
 
   accord.on('click', function() {
     $(`.accordion__bar-ul`).slideUp();
-    $(this).next(list).slideDown();
+    $(this).siblings(list).slideDown();
 
     ev.preventDefualt();
   });
