@@ -30,7 +30,7 @@
   margin: 1px;
 }
 
-.key-btn {
+.key-btn, .key-btn__space {
   flex: 1;
   background-color: $brand_white;
   padding: 1px;
@@ -43,4 +43,11 @@
 
 .key-btn__big {
   flex: 2;
+  background-color: $brand_white;
+  padding: 1px;
+  border: 1px $brand_dark_grey solid;
+  text-align: center;
+  margin: 1px;
+  border-radius: 5%;
+  height: 1.4em;
 }

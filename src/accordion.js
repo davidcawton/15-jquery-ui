@@ -4,8 +4,8 @@ export default function() {
 
   accord.on('click', function() {
     $(`.accordion__bar-ul`).slideUp();
-    $(this).siblings(list).slideDown();
+    $(this).siblings(list).toggle();
 
     ev.preventDefualt();
   });
-};
+}
