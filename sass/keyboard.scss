@@ -1,0 +1,71 @@
+
+
+
+.text-area {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  background: $brand_white;
+  border: 1px $brand_dark_grey solid;
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 2px;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: left;
+}
+
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  background-color: $brand_light_grey;
+  max-width: 800px;
+  margin: auto;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.keyboard-keys {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin: 1px;
+}
+
+.key-btn, .key-btn__space {
+  flex: 1;
+  background-color: $brand_white;
+  padding: 1px;
+  border: 1px $brand_dark_grey solid;
+  text-align: center;
+  margin: 1px;
+  border-radius: 5%;
+  height: 1.4em;
+}
+
+.key-btn:hover {
+  color: $brand-white;
+  background-color: $brand_dark_grey;
+}
+
+.key-btn__big:hover {
+  color: $brand-white;
+  background-color: $brand_dark_grey;
+}
+
+.key-btn__space:hover {
+  color: $brand-white;
+  background-color: $brand_dark_grey;
+}
+
+
+.key-btn__big {
+  flex: 2;
+  background-color: $brand_white;
+  padding: 1px;
+  border: 1px $brand_dark_grey solid;
+  text-align: center;
+  margin: 1px;
+  border-radius: 5%;
+  height: 1.4em;
+}

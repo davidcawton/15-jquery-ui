@@ -3,11 +3,87 @@
   <head>
     <meta charset="utf-8">
     <title>Keyboard</title>
-    <link rel="stylesheet" href="/normalize.css">
+    <link rel="stylesheet" href="/normalize-css">
   <link rel="stylesheet" href="/app.css">
   <link href='https://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
   </head>
   <body>
-
+    <div class="text-area">
+    </div>
+    <div class="keyboard">
+      <ul class="keyboard-keys keyboard-keys__row1">
+        <li class="key-btn" >`</li>
+        <li class="key-btn">1</li>
+        <li class="key-btn">2</li>
+        <li class="key-btn">3</li>
+        <li class="key-btn">4</li>
+        <li class="key-btn">5</li>
+        <li class="key-btn">6</li>
+        <li class="key-btn">7</li>
+        <li class="key-btn">8</li>
+        <li class="key-btn">9</li>
+        <li class="key-btn">0</li>
+        <li class="key-btn">-</li>
+        <li class="key-btn">=</li>
+        <li class="key-btn__big delete">delete</li>
+      </ul>
+      <ul class="keyboard-keys keyboard-keys__row2">
+        <li class="key-btn__big tab">tab</li>
+        <li class="key-btn">q</li>
+        <li class="key-btn">w</li>
+        <li class="key-btn">e</li>
+        <li class="key-btn">r</li>
+        <li class="key-btn">t</li>
+        <li class="key-btn">y</li>
+        <li class="key-btn">u</li>
+        <li class="key-btn">i</li>
+        <li class="key-btn">o</li>
+        <li class="key-btn">p</li>
+        <li class="key-btn">[</li>
+        <li class="key-btn">]</li>
+        <li class="key-btn">\</li>
+      </ul>
+      <ul class="keyboard-keys keyboard-keys__row3">
+        <li class="key-btn__big caps">caps lock</li>
+        <li class="key-btn">a</li>
+        <li class="key-btn">s</li>
+        <li class="key-btn">d</li>
+        <li class="key-btn">f</li>
+        <li class="key-btn">g</li>
+        <li class="key-btn">h</li>
+        <li class="key-btn">j</li>
+        <li class="key-btn">k</li>
+        <li class="key-btn">l</li>
+        <li class="key-btn">;</li>
+        <li class="key-btn">'</li>
+        <li class="key-btn__big return">return</li>
+      </ul>
+      <ul class="keyboard-keys keyboard-keys__row4">
+        <li class="key-btn__big shift">shift</li>
+        <li class="key-btn">z</li>
+        <li class="key-btn">x</li>
+        <li class="key-btn">c</li>
+        <li class="key-btn">v</li>
+        <li class="key-btn">b</li>
+        <li class="key-btn">n</li>
+        <li class="key-btn">m</li>
+        <li class="key-btn">,</li>
+        <li class="key-btn">.</li>
+        <li class="key-btn">/</li>
+        <li class="key-btn__big key-btn__shift">shift</li>
+      </ul>
+      <ul class="keyboard-keys keyboard-keys__row5">
+        <li class="key-btn__space space">space</li>
+      </ul>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.20/require.js"></script>
+    <script src="/jquery.js"></script>
+    <script src="app.js"></script>
+    <script>
+      require(['keyboard'], function(keyboard) {
+        keyboard();
+      });
+    </script>
   </body>
 </html>
