@@ -2,10 +2,12 @@
 export default function() {
   var enter = $('.text-area');
   var keys = $('.key-btn');
-  var tabBtn = $('#key-btn__tab');
-  var retBtn = $('key-btn__return');
+  var tabBtn = $('.tab');
+  var retBtn = $('.return');
   var delBtn = $('.delete');
-  var spaceBtn = $('.key-btn__space');
+  var spaceBtn = $('.space');
+  var shift = false;
+  var capslock = false;
 
   $('.key-btn').on('click', function() {
     var char = $(this).html();
@@ -18,12 +20,17 @@ export default function() {
   });
 
   retBtn.on('click', function() {
-    var char = '\n';
+    var char = `\n`;
     enter.html(enter.html() + char);
   });
 
   tabBtn.on('click', function() {
-    var char = '\t';
+    var char = `\t`;
+    enter.html(enter.html() + char);
+  });
+
+  spaceBtn.on('click', function() {
+    var char = ` `;
     enter.html(enter.html() + char);
   });
 
